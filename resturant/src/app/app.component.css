@@ -30,7 +30,7 @@ body{
 }
 
 section{
-  padding: 2rem 9%;
+  padding: 2rem 14%;
 }
 
 .btn{
@@ -299,9 +299,22 @@ color: #ff3838;
  }
 
  .steps .box h3{
-   font-size: 2rem;
+   font-size: 1.8rem;
    color: #333;
    padding: 1rem ;
+ }
+
+ @media (max-width: 992px) {
+  .steps{
+    display: flex;
+    flex-direction: column;
+   }
+
+   .steps .box img{
+    width: 300px;
+    height: 300px;
+   }
+
  }
 
  /* end steps */
